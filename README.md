@@ -22,6 +22,7 @@ and the evaluation Metrics are as follows:
 
 
 # Measuring Variability
+
 For each metric selected as an evaluation metric, we estimate its standard deviation analytically.
 Evaluation Metric | Standard Deviation
 ------------------------------------ 
