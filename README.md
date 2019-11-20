@@ -62,8 +62,8 @@ http://www.evanmiller.org/ab-testing/sample-size.html
 * pageviews = 51,670/Click-through-probability = 645,875
 
 ### Duration vs. Exposure
-We would divert 100% of traffic, and the experiment would take ~ 18 days given 40,000 page views per day.
-An 18 day experiment seems reasonable, but 100% diversion may be scaled down depending on whether there are other experiments of interest are being performed concurrently.
+We would divert 100% of traffic, and the experiment would take about 18 days given 40,000 page views per day.
+In terms of duration, an 18-day experiment looks pretty reasonable, but 100% diversion may be scaled down depending on whether there are other experiments of interest are being performed concurrently.
 
 ## Experiment Analysis
 ### Sanity Checks
