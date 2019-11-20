@@ -22,11 +22,11 @@ and the evaluation Metrics are as follows:
 
 
 # Measuring Variability
-
 For each metric selected as an evaluation metric, we estimate its standard deviation analytically.
-Evaluation Metric | Standard Deviation
------------------------------------- 
-Gross Conversion | .0202
-Net Conversion |	.0156
+
+|Evaluation Metric| Standard Deviation
+| --- | --- |
+|Gross Conversion | 0.0202
+|Net Conversion |	0.0156
 
 The analytic estimates would be comparable to the the empirical variability as for the metrics we choose the unit of diversion is equal to the unit of analysis.
