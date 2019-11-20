@@ -22,7 +22,7 @@ and the evaluation Metrics are as follows:
 
 
 # Measuring Variability
-For each metric selected as an evaluation metric, we estimate its standard deviation analytically.
+For each metric selected as an evaluation metric, we estimate its standard deviation analytically. Given a sample size of 5000 cookies visiting the course overview page, the standard deviations are as follows:
 
 |Evaluation Metric| Standard Deviation
 | --- | --- |
