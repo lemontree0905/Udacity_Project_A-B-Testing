@@ -31,3 +31,37 @@ For each metric selected as an evaluation metric, we estimate its standard devia
 |Net Conversion |	0.0156
 
 The analytic estimates would be comparable to the the empirical variability as for the metrics we choose the unit of diversion is equal to the unit of analysis.
+
+## Sizing
+
+### Number of Samples vs. Power
+I will NOT use the Bonferroni correction during my analysis phase because the two metrics are not independent.
+
+
+We first calculate the number of pageviews needed in order to power the experiment appropriately. 
+#### Net Conversion
+Baseline Conversion: 10.9313%
+Minimum Detectable Effect: 0.75%
+alpha: 5%
+beta: 20%
+1 - beta: 80%
+sample size = 27,413 enrollments/group
+Number of groups = 2 (experiment and control)
+total sample size = 54,826
+pageviews = 54,826/Click-through-probability = 685,325
+#### Gross Conversion
+Baseline Conversion: 20.625%
+Minimum Detectable Effect: 1%
+alpha: 5%
+beta: 20%
+1 - beta: 80%
+sample size = 25,835 enrollments/group
+Number of groups = 2 (experiment and control)
+total sample size = 51,670 enrollments
+clicks/pageview: 3200/40000 = .08 clicks/pageview
+pageviews = 51,670/Click-through-probability = 645,875
+
+### Duration vs. Exposure
+We would divert 100% of traffic, and the experiment would take ~ 18 days given 40,000 page views per day.
+An 18 day experiment seems reasonable, but 100% diversion may be scaled down depending on whether there are other experiments of interest are being performed concurrently.
+
