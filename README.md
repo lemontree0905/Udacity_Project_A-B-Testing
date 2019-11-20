@@ -23,7 +23,7 @@ and the evaluation Metrics are as follows:
 
 
 ## Measuring Variability
-For each metric selected as an evaluation metric, we estimate its standard deviation analytically. Given a sample size of 5000 cookies visiting the course overview page, the standard deviations are as follows (Recall that the standard deviation is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma=\sqrt{p*(1-p)/n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma=\sqrt{p*(1-p)/n}" title="\sigma=\sqrt{p*(1-p)/n}" /></a> with n the sample size):
+For each metric selected as an evaluation metric, we estimate its standard deviation analytically. Given a sample size of 5000 cookies visiting the course overview page, the standard deviations are as follows (Recall that the standard deviation is defined as \sigma=\sqrt{p(1-p)/n} with n the sample size):
 
 |Evaluation Metric| Standard Deviation
 | --- | --- |
