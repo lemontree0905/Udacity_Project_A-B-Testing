@@ -23,12 +23,13 @@ and the evaluation Metrics are as follows:
 
 
 ## Measuring Variability
-For each metric selected as an evaluation metric, we estimate its standard deviation analytically. Given a sample size of 5000 cookies visiting the course overview page, the standard deviations are as follows:
+For each metric selected as an evaluation metric, we estimate its standard deviation analytically. Given a sample size of 5000 cookies visiting the course overview page, the standard deviations are as follows (Recall that the standard deviation is defined as $\simga=\sqrt(p*(1-p)/n)$ with n the sample size):
 
 |Evaluation Metric| Standard Deviation
 | --- | --- |
 |Gross Conversion | 0.0202
 |Net Conversion |	0.0156
+
 
 The analytic estimates would be comparable to the the empirical variability as for the metrics we choose the unit of diversion is equal to the unit of analysis.
 
@@ -36,7 +37,7 @@ The analytic estimates would be comparable to the the empirical variability as f
 
 ### Number of Samples vs. Power
 We first calculate the number of pageviews needed in order to power the experiment appropriately. I will NOT use the Bonferroni correction during my analysis phase because the two metrics are not independent. 
-We use the online calculator to do the calculation:
+The calculation can be done by using the online calculator:
 http://www.evanmiller.org/ab-testing/sample-size.html
 
 #### Net Conversion
