@@ -35,7 +35,9 @@ The analytic estimates would be comparable to the the empirical variability as f
 ## Sizing
 
 ### Number of Samples vs. Power
-We first calculate the number of pageviews needed in order to power the experiment appropriately. I will NOT use the Bonferroni correction during my analysis phase because the two metrics are not independent.
+We first calculate the number of pageviews needed in order to power the experiment appropriately. I will NOT use the Bonferroni correction during my analysis phase because the two metrics are not independent. 
+We use the online calculator to do the calculation:
+http://www.evanmiller.org/ab-testing/sample-size.html
 
 #### Net Conversion
 * Baseline Conversion: 10.9313%
