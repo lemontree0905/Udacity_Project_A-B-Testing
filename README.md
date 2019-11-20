@@ -35,10 +35,8 @@ The analytic estimates would be comparable to the the empirical variability as f
 ## Sizing
 
 ### Number of Samples vs. Power
-I will NOT use the Bonferroni correction during my analysis phase because the two metrics are not independent.
+We first calculate the number of pageviews needed in order to power the experiment appropriately. I will NOT use the Bonferroni correction during my analysis phase because the two metrics are not independent.
 
-
-We first calculate the number of pageviews needed in order to power the experiment appropriately. 
 #### Net Conversion
 * Baseline Conversion: 10.9313%
 * Minimum Detectable Effect: 0.75%
@@ -64,4 +62,10 @@ We first calculate the number of pageviews needed in order to power the experime
 ### Duration vs. Exposure
 We would divert 100% of traffic, and the experiment would take ~ 18 days given 40,000 page views per day.
 An 18 day experiment seems reasonable, but 100% diversion may be scaled down depending on whether there are other experiments of interest are being performed concurrently.
+
+## Experiment Analysis
+### Sanity Checks
+For each of the invariant metrics, we test it at the 95% confidence interval.
+
+
 
