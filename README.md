@@ -101,9 +101,7 @@ One should also notice that the given spreadsheet lists pageviews and clicks for
 |Net conversion |	-0.0116 | 0.0019  | NO | NO
 
 #### Sign Tests
-For each evaluation metric, we also do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant.<br/>
-The calculation using this online calculator:
-https://www.graphpad.com/quickcalcs/binomial1.cfm
+For each evaluation metric, we also do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant.The calculation using this online calculator: https://www.graphpad.com/quickcalcs/binomial1.cfm
 
 |Evaluation Metric| P-value | Statistically Significant 
 | --- | --- |--- 
@@ -111,7 +109,7 @@ https://www.graphpad.com/quickcalcs/binomial1.cfm
 |Net conversion |	0.6776 |  NO
 
 #### Summary
-I didn't use the Bonferroni correction because the two evalutaion metrics are not independent.The results from effect size hypothesis tests are in consisten with those from the sign tests.
+I didn't use the Bonferroni correction because the two evalutaion metrics are not independent.The results from effect size hypothesis tests are in consistent with those from the sign tests.
 
 #### Recommendation
 We can see that the number of frustrated students who left the free trial has redueced, however the number of students to continue past the free trial and eventually complete the course is unaffected. It means that a decrease in enrollment is not coupled to an increase in students end up with payment. Therefore I will not recommend launch the change.
