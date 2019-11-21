@@ -114,5 +114,5 @@ https://www.graphpad.com/quickcalcs/binomial1.cfm
 I didn't use the Bonferroni correction because the two evalutaion metrics are not independent.The results from effect size hypothesis tests are in consisten with those from the sign tests.
 
 #### Recommendation
-At this point, I will 
+We can see that the number of frustrated students who left the free trial has redueced, however the number of students to continue past the free trial and eventually complete the course is unaffected. It means that a decrease in enrollment is not coupled to an increase in students end up with payment. Therefore I will not recommend launch the change.
 
