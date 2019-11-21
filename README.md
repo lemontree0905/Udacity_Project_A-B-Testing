@@ -70,7 +70,7 @@ In terms of duration, an 18-day experiment looks pretty reasonable, but 100% div
 For each of the invariant metrics, we test it at the 95% confidence interval.
 
 |Invariant Metric| Lower Bound | Upper Bound| Observerd | Passes
-| --- | --- |
+| --- | --- |--- |--- |--- |
 |Number of cookies | 0.4988 | 0.5012 | 0.5006 | Pass
 |Number of clicks |	0.4959 | 0.5041 | 0.5005 | Pass
 | Click-through-probability | 0.0202 | 0.0202 | Pass
