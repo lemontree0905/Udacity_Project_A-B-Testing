@@ -91,11 +91,11 @@ If the true difference d between click-through-probability in the experiments an
 
 ### Result Analysis
 #### Effect Size Tests
-For each of your evaluation metrics, we give a 95% confidence interval around the difference between the experiment and control groups.<br\>
-A metric is statistically significant if the confidence interval does not include 0 (that is, you can be confident there was a change), and it is practically significant if the confidence interval does not include the practical significance boundary (that is, you can be confident there is a change that matters to the business.)<br\>
+For each of your evaluation metrics, we give a 95% confidence interval around the difference between the experiment and control groups.<br/>
+A metric is statistically significant if the confidence interval does not include 0 (that is, you can be confident there was a change), and it is practically significant if the confidence interval does not include the practical significance boundary (that is, you can be confident there is a change that matters to the business.)<br/>
 One should also notice that the given spreadsheet lists pageviews and clicks for 39 days, while it only lists enrollments and payments for 23 days.
 
 |Evaluation Metric| Lower Bound | Upper Bound| Statistically Significant | Practically Significant
 | --- | --- |--- |--- |--- |
 |Gross conversion | -0.0291 | -0.0120 | YES | YES
-|Net conversion |	-0.0116 | 0.0018  | NO | NO
+|Net conversion |	-0.0116 | 0.0019  | NO | NO
