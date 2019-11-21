@@ -82,5 +82,9 @@ Then we check whether the observed value falls into the confidence interval the 
 
 * For any other type of metric, we should construct a confidence interval for a difference in proportions. This is how it is done. We first calculate the pooled probability
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;P_{pool}=\frac{X_{exp}&plus;X_{cont}}{N_{exp}&plus;N_{cont}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;P_{pool}=\frac{X_{exp}&plus;X_{cont}}{N_{exp}&plus;N_{cont}}" title="\small P_{pool}=\frac{X_{exp}+X_{cont}}{N_{exp}+N_{cont}}" /></a></p>.
+
 Then we calculate the pooled standard error
+
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" title="\small SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}+1/N_{cont})}" /></a></p>
+
+If the true difference d between Click-through-probability in the experiments and controls is zero, then we would expect that d follows a normal distribution with mean 0 and standard deviation SE. Then if the observed value d is large than 1.96SE or less than -1.96SE, then we could conclude that the difference represents a statistically significant difference. Otherwise the sanity check passes.
