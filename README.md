@@ -77,9 +77,10 @@ For each of the invariant metrics, we test it at the 95% confidence interval.
 
 * For population size metrics, we first calculate the standard error with binomial with probability 0.5, that is<br/>    
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" title="\small SE = \sqrt{0.5(1-0.5)/(N_{exp}+N_{cont})}" /></a>.</p>
-Then we comupute the confidence interval around 0.5, which is<br/>
-<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;[0.5-1.96*SE,0.5&plus;1.96*SE]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;[0.5-1.96*SE,0.5&plus;1.96*SE]" title="\small [0.5-1.96*SE,0.5+1.96*SE]" /></a>.</p> Finally we check whether the observed value falls into the confidence interval.
-* For any other type of metric
+Then we check whether the observed value falls into the confidence interval the confidence interval around 0.5, which is<br/>
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;[0.5-1.96*SE,0.5&plus;1.96*SE]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;[0.5-1.96*SE,0.5&plus;1.96*SE]" title="\small [0.5-1.96*SE,0.5+1.96*SE]" /></a>.</p>
+
+* For any other type of metric, we compute
 
 
 
