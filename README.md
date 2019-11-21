@@ -73,7 +73,7 @@ For each of the invariant metrics, we test it at the 95% confidence interval.
 | --- | --- |--- |--- |--- |
 |Number of cookies | 0.4988 | 0.5012 | 0.5006 | Pass
 |Number of clicks |	0.4959 | 0.5041 | 0.5005 | Pass
-| Click-through-probability | 0.0812 | 0.0830 | 0.0822 | Pass
+| Click-through-probability | -0.0013 | 0.0013 | -0.0001 | Pass
 
 * For population size metrics, we first calculate the standard error with binomial with probability 0.5, that is   
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" title="\small SE = \sqrt{0.5(1-0.5)/(N_{exp}+N_{cont})}" /></a>.</p>
@@ -87,4 +87,4 @@ Then we calculate the pooled standard error
 
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" title="\small SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}+1/N_{cont})}" /></a></p>
 
-If the true difference d between Click-through-probability in the experiments and controls is zero, then we would expect that d follows a normal distribution with mean 0 and standard deviation SE. Then if the observed value d is large than 1.96SE or less than -1.96SE, then we could conclude that the difference represents a statistically significant difference. Otherwise the sanity check passes.
+If the true difference d between click-through-probability in the experiments and controls is zero, then we would expect that d follows a normal distribution with mean 0 and standard deviation SE. Then if the observed value d is large than 1.96SE or less than -1.96SE, then we could conclude that the difference represents a statistically significant difference. Otherwise the sanity check passes.
