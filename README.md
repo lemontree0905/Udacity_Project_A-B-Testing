@@ -76,7 +76,7 @@ For each of the invariant metrics, we test it at the 95% confidence interval.
 | Click-through-probability | 0.0202 | 0.0202 | Pass
 
 For population size metrics, we first calculate the standard error with binomial with probability 0.5, that is 
-$SE = \sqrt{0.5(1-0.5)/(N_exp+N_cont)}$. Then we comupute the confidence interval around 0.5, which is [0.5-1.96*SE,0.5+1.96*SE]. Finally we check whether the observed value falls into the confidence interval.
+<a href="https://www.codecogs.com/eqnedit.php?latex=SE&space;=&space;\sqrt{0.5(1-0.5)/(N_exp&plus;N_cont)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?SE&space;=&space;\sqrt{0.5(1-0.5)/(N_exp&plus;N_cont)}" title="SE = \sqrt{0.5(1-0.5)/(N_exp+N_cont)}" /></a>. Then we comupute the confidence interval around 0.5, which is [0.5-1.96*SE, 0.5+1.96*SE]. Finally we check whether the observed value falls into the confidence interval.
 
 
 
