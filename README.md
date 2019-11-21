@@ -99,3 +99,20 @@ One should also notice that the given spreadsheet lists pageviews and clicks for
 | --- | --- |--- |--- |--- |
 |Gross conversion | -0.0291 | -0.0120 | YES | YES
 |Net conversion |	-0.0116 | 0.0019  | NO | NO
+
+#### Sign Tests
+For each evaluation metric, we also do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant.<br/>
+The calculation using this online calculator:
+https://www.graphpad.com/quickcalcs/binomial1.cfm
+
+|Evaluation Metric| P-value | Statistically Significant 
+| --- | --- |--- 
+|Gross conversion | 0.0026 | YES |
+|Net conversion |	0.6776 |  NO
+
+#### Summary
+I didn't use the Bonferroni correction because the two evalutaion metrics are not independent.The results from effect size hypothesis tests are in consisten with those from the sign tests.
+
+#### Recommendation
+At this point, I will 
+
