@@ -88,3 +88,14 @@ Then we calculate the pooled standard error
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" title="\small SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}+1/N_{cont})}" /></a></p>
 
 If the true difference d between click-through-probability in the experiments and controls is zero, then we would expect that d follows a normal distribution with mean 0 and standard deviation SE. Then if the observed value d is large than 1.96SE or less than -1.96SE, then we could conclude that the difference represents a statistically significant difference. Otherwise the sanity check passes.
+
+### Result Analysis
+#### Effect Size Tests
+For each of your evaluation metrics, we give a 95% confidence interval around the difference between the experiment and control groups.<br\>
+A metric is statistically significant if the confidence interval does not include 0 (that is, you can be confident there was a change), and it is practically significant if the confidence interval does not include the practical significance boundary (that is, you can be confident there is a change that matters to the business.)<br\>
+One should also notice that the given spreadsheet lists pageviews and clicks for 39 days, while it only lists enrollments and payments for 23 days.
+
+|Evaluation Metric| Lower Bound | Upper Bound| Statistically Significant | Practically Significant
+| --- | --- |--- |--- |--- |
+|Gross conversion | -0.0291 | -0.0120 | YES | YES
+|Net conversion |	-0.0116 | 0.0018  | NO | NO
