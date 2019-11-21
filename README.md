@@ -10,7 +10,7 @@ The hypothesis was that this might set clearer expectations for students upfront
 The unit of diversion is a cookie, although if the student enrolls in the free trial, they are tracked by user-id from that point forward. The same user-id cannot enroll in the free trial twice. For users that do not enroll, their user-id is not tracked in the experiment, even if they were signed in when they visited the course overview page.
 
 ## Metric Choice
-There are two types of metrics for a successful experiment: Invariant and evaluation metrics. 
+There are two types of metrics for a successful experiment: Invariant (which you don't expect to change) and evaluation metrics. 
 
 In the given experiment, we choose the following invariant metrics:
 - Number of cookies: That is, number of unique cookies to view the course overview page. (dmin=3000)
@@ -68,6 +68,15 @@ In terms of duration, an 18-day experiment looks pretty reasonable, but 100% div
 ## Experiment Analysis
 ### Sanity Checks
 For each of the invariant metrics, we test it at the 95% confidence interval.
+
+|Invariant Metric| Lower Bound | Upper Bound| Observerd | Passes
+| --- | --- |
+|Number of cookies | 0.4988 | 0.5012 | 0.5006 | Pass
+|Number of clicks |	0.4959 | 0.5041 | 0.5005 | Pass
+| Click-through-probability | 0.0202 | 0.0202 | Pass
+
+For population size metrics, we first calculate the standard error with binomial with probability 0.5, that is 
+SE = \sqrt{0.5*0.5/(N_exp+N_cont)}. Then we comupute the confidence interval around 0.5, which is [0.5-1.96*SE,0.5+1.96*SE]. Finally we check whether the observed value falls into the confidence interval.
 
 
 
