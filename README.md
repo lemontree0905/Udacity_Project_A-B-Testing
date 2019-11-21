@@ -23,7 +23,7 @@ and the evaluation Metrics are as follows:
 
 
 ## Measuring Variability
-For each metric selected as an evaluation metric, we estimate its standard deviation analytically. Given a sample size of 5000 cookies visiting the course overview page, the standard deviations are as follows (Recall that the standard deviation is defined as \sigma=\sqrt{p(1-p)/n} with n the sample size):
+For each metric selected as an evaluation metric, we estimate its standard deviation analytically. Given a sample size of 5000 cookies visiting the course overview page, the standard deviations are as follows (Recall that the standard deviation is defined as <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma=\sqrt{p(1-p)/n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma=\sqrt{p(1-p)/n}" title="\sigma=\sqrt{p(1-p)/n}" /></a> with n the sample size):
 
 |Evaluation Metric| Standard Deviation
 | --- | --- |
@@ -76,7 +76,7 @@ For each of the invariant metrics, we test it at the 95% confidence interval.
 | Click-through-probability | 0.0202 | 0.0202 | Pass
 
 For population size metrics, we first calculate the standard error with binomial with probability 0.5, that is 
-<a href="https://www.codecogs.com/eqnedit.php?latex=SE&space;=&space;\sqrt{0.5(1-0.5)/(N_exp&plus;N_cont)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?SE&space;=&space;\sqrt{0.5(1-0.5)/(N_exp&plus;N_cont)}" title="SE = \sqrt{0.5(1-0.5)/(N_exp+N_cont)}" /></a>. Then we comupute the confidence interval around 0.5, which is [0.5-1.96*SE, 0.5+1.96*SE]. Finally we check whether the observed value falls into the confidence interval.
+<a href="https://www.codecogs.com/eqnedit.php?latex=SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" title="SE = \sqrt{0.5(1-0.5)/(N_{exp}+N_{cont})}" /></a>. Then we comupute the confidence interval around 0.5, which is <a href="https://www.codecogs.com/eqnedit.php?latex=[0.5-1.96*SE,&space;0.5&plus;1.96*SE]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?[0.5-1.96*SE,&space;0.5&plus;1.96*SE]" title="[0.5-1.96*SE, 0.5+1.96*SE]" /></a>. Finally we check whether the observed value falls into the confidence interval.
 
 
 
