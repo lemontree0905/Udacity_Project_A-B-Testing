@@ -91,8 +91,10 @@ If the true difference d between click-through-probability in the experiments an
 
 ### Result Analysis
 #### Effect Size Tests
-For each of your evaluation metrics, we give a 95% confidence interval around the difference between the experiment and control groups.<br/>
-A metric is statistically significant if the confidence interval does not include 0 (that is, you can be confident there was a change), and it is practically significant if the confidence interval does not include the practical significance boundary (that is, you can be confident there is a change that matters to the business.)<br/>
+For each of your evaluation metrics, we give a 95% confidence interval around the difference between the experiment and control groups.
+
+A metric is statistically significant if the confidence interval does not include 0 (that is, you can be confident there was a change), and it is practically significant if the confidence interval does not include the practical significance boundary (that is, you can be confident there is a change that matters to the business.)
+
 One should also notice that the given spreadsheet lists pageviews and clicks for 39 days, while it only lists enrollments and payments for 23 days.
 
 |Evaluation Metric| Lower Bound | Upper Bound| Statistically Significant | Practically Significant
@@ -109,7 +111,7 @@ For each evaluation metric, we also do a sign test using the day-by-day data, an
 |Net conversion |	0.6776 |  NO
 
 #### Summary
-I didn't use the Bonferroni correction because the two evalutaion metrics are not independent.The results from effect size hypothesis tests are in consistent with those from the sign tests.
+I didn't use the Bonferroni correction because the two evalutaion metrics are not independent.The results from effect size hypothesis tests are in consistent with those from sign tests.
 
 #### Recommendation
 We can see that the number of frustrated students who left the free trial has redueced while the number of students to continue past the free trial and eventually complete the course is unaffected. Therefore the hypothesis holds true, whick means this could help Udacity  improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course. Therefore I will recommend launch the change.
