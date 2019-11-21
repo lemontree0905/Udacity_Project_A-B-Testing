@@ -73,14 +73,14 @@ For each of the invariant metrics, we test it at the 95% confidence interval.
 | --- | --- |--- |--- |--- |
 |Number of cookies | 0.4988 | 0.5012 | 0.5006 | Pass
 |Number of clicks |	0.4959 | 0.5041 | 0.5005 | Pass
-| Click-through-probability | 0.0202 | 0.0202 | Pass
+| Click-through-probability | 0.0812 | 0.0830 | 0.0822 | Pass
 
-* For population size metrics, we first calculate the standard error with binomial with probability 0.5, that is<br/>    
+* For population size metrics, we first calculate the standard error with binomial with probability 0.5, that is   
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;SE&space;=&space;\sqrt{0.5(1-0.5)/(N_{exp}&plus;N_{cont})}" title="\small SE = \sqrt{0.5(1-0.5)/(N_{exp}+N_{cont})}" /></a>.</p>
-Then we check whether the observed value falls into the confidence interval the confidence interval around 0.5<br/>
+Then we check whether the observed value falls into the confidence interval the confidence interval around 0.5
 <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;[0.5-1.96*SE,0.5&plus;1.96*SE]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;[0.5-1.96*SE,0.5&plus;1.96*SE]" title="\small [0.5-1.96*SE,0.5+1.96*SE]" /></a>.</p>
 
-* For any other type of metric, we compute
-
-
-
+* For any other type of metric, we should construct a confidence interval for a difference in proportions. This is how it is done. We first calculate the pooled probability
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;P_{pool}=\frac{X_{exp}&plus;X_{cont}}{N_{exp}&plus;N_{cont}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;P_{pool}=\frac{X_{exp}&plus;X_{cont}}{N_{exp}&plus;N_{cont}}" title="\small P_{pool}=\frac{X_{exp}+X_{cont}}{N_{exp}+N_{cont}}" /></a></p>.
+Then we calculate the pooled standard error
+<p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}&plus;1/N_{cont})}" title="\small SE_{pool}=\sqrt{P_{pool}(1-P_{pool})*(1/N_{exp}+1/N_{cont})}" /></a></p>
