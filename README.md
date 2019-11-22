@@ -115,5 +115,5 @@ For each evaluation metric, we also do a sign test using the day-by-day data, an
 I didn't use the Bonferroni correction.The results from effect size hypothesis tests are in consistent with those from sign tests.
 
 #### Recommendation
-We can see that the number of frustrated students who left the free trial has redueced while the number of students to continue past the free trial and eventually complete the course is unaffected. Therefore the hypothesis holds true, whick means this could help Udacity  improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course. Therefore I will recommend launch the change.
+We can see that the Gross conversion represents both statistically and practically significant differences, while the Net conversion is neither statistically or practically significant differences. It means that the number of frustrated students who left the free trial has redueced but the number of students to continue past the free trial and eventually complete the course is unaffected. The hypothesis holds true and the change could help Udacity improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course. Therefore I will recommend launch the change.
 
