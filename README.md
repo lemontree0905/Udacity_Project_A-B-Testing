@@ -41,15 +41,15 @@ The calculation can be done by using the online calculator:
 http://www.evanmiller.org/ab-testing/sample-size.html
 
 #### Net Conversion
-* Baseline Conversion: 10.9313%
+* Baseline Conversion: 10.93%
 * Minimum Detectable Effect: 0.75%
 * alpha: 5%
 * beta: 20%
 * 1 - beta: 80%
-* sample size = 27,413 enrollments/group
+* sample size = 27,411 enrollments/group
 * Number of groups = 2 (experiment and control)
-* total sample size = 54,826
-* pageviews = 54,826/Click-through-probability = 685,325
+* total sample size = 54,822
+* pageviews = 54,826/Click-through-probability = 685,275
 #### Gross Conversion
 * Baseline Conversion: 20.625%
 * Minimum Detectable Effect: 1%
