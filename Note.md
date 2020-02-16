@@ -29,7 +29,17 @@
 - Confidence Interval Cases
  
 ## Lesson 2 Policy and Ethics for Experiments
-Four Principles of IRB's (Institutional Research Boards): Risk,Benefits,Alternatives,Data Sensitivity
+Four Principles of IRB's (Institutional Research Boards): Risk, Benefits, Alternatives, Data Sensitivity
 
 
 ## Lesson3 Choosing and Characterizing Metrics
+### Metric Definition Overview
+- Invariant checking (Sanity check) & Evaluation
+- Highlevel concepts for metrics
+- Difficult metrics
+  - Don't have access to data
+  - Takes too long
+- Other Techniques
+  - External Data
+  
+### 
