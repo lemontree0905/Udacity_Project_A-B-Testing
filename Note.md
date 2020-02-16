@@ -28,3 +28,8 @@
 ### Analyze
 - Confidence Interval Cases
  
+## Lesson 2 Policy and Ethics for Experiments
+Four Principles of IRB's (Institutional Research Boards): Risk,Benefits,Alternatives,Data Sensitivity
+
+
+## Lesson3 Choosing and Characterizing Metrics
