@@ -14,7 +14,17 @@
 - Calculate a confidence interval
   - To use normal : Np>5 and N(1-p)>5
   - Pooled Standard Error 
-    - P_{pool}=\frac{X_{cont}+X_{exp}}{N_{cont}+N_{exp}}
-    SE_{pool}=\sqrt{P_{pool}(1-P_{pool})(\frac{1}{N_{cont}}+\frac{1}{N_{exp}})}
+    <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=P_{pool}=\frac{X_{cont}&plus;X_{exp}}{N_{cont}&plus;N_{exp}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P_{pool}=\frac{X_{cont}&plus;X_{exp}}{N_{cont}&plus;N_{exp}}" title="P_{pool}=\frac{X_{cont}+X_{exp}}{N_{cont}+N_{exp}}" /></a></p>
+     <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=SE_{pool}=\sqrt{P_{pool}(1-P_{pool})(\frac{1}{N_{cont}}&plus;\frac{1}{N_{exp}})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?SE_{pool}=\sqrt{P_{pool}(1-P_{pool})(\frac{1}{N_{cont}}&plus;\frac{1}{N_{exp}})}" title="SE_{pool}=\sqrt{P_{pool}(1-P_{pool})(\frac{1}{N_{cont}}+\frac{1}{N_{exp}})}" /></a></p>
+        
+- Practicall Significance (Substantive) & Statistical Significance
+
+### Design
+- Size vs. Power trade-off
+  - Significance level alpha: alpha = P(reject null|null true)
+  - Sensitivity 1-beta: beta = P(fail to reject|null false) 
+    http://www.evanmiller.org/ab-testing/sample-size.html
     
-- Practically Significant (Substantive) & Statistically Significant
+### Analyze
+- Confidence Interval Cases
+ 
