@@ -41,5 +41,14 @@ Four Principles of IRB's (Institutional Research Boards): Risk, Benefits, Altern
   - Takes too long
 - Other Techniques
   - External Data
+  - Retrospective or observational analysis (establish **correlation** not **causation**)
+  - Gathering Your Own In-Depth Data
+    - User Experience Research (UER): 
+    - Focus groups
+    - Surveys
+###  Metric Definition
+- Click-through-probability = Unique visitors who click/Unique visitors to page
+  - How to define a unique visitor (cookie, unique id for each page view)
+  - Time period
   
-### 
+### Filtering and Segmenting
