@@ -52,3 +52,47 @@ Four Principles of IRB's (Institutional Research Boards): Risk, Benefits, Altern
   - Time period
   
 ### Filtering and Segmenting
+
+### Summary metrics
+- Categories
+  - Sum and counts
+  - Distributional metrics: means, median, percentiles
+  - Probabilities and Rates
+  - Ratios
+  
+### Sensitivity and Robustness
+
+### Variability 
+|type of metric |distribution| estimated variance
+| --- | --- | --- |
+|probability | binomial | p(1-p)/N
+|mean |	Normal | sigma^2/N
+|median/percentile| depends | depends
+| counts/difference | normal(maybe)| Var(X)+Var(Y)
+| rates | poisson | \bar{x}
+| ratios| depends | depends
+
+## Lesson4 Designing an Experiment
+### Choose 'subject'
+- unit of division
+  - user id: stable, unchanging
+  - anonymous id (cookie): change when you switch browser or device, user can clear cookie
+  - Event: no consistent experience
+  - Device id: only availabe for mobile
+  - IP address
+- Consistency of Diversion
+  - user consistency
+  - Ethical considerations
+  - Unit of Analysis vs Unit of Diversion
+### Choose 'population'
+- Inter- vs. Intra-User Experiments
+- Target Population
+- Cohort: Enter the experiment around the same time
+  - Anything require **user stability**
+  - looking for learning effects
+  - examing user retention
+  - increase user activity
+### Experiment Design and Sizing
+### Duration vs. Exposure
+
+## Analyzing Results
