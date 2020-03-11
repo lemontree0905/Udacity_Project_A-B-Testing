@@ -95,4 +95,10 @@ Four Principles of IRB's (Institutional Research Boards): Risk, Benefits, Altern
 ### Experiment Design and Sizing
 ### Duration vs. Exposure
 
-## Analyzing Results
+## Lesson5 Analyzing Results
+### Multiple Metric
+- False positive
+  - Assuming independent
+    <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;\alpha&space;=&space;1&space;-&space;(1-\alpha)^n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;\alpha&space;=&space;1&space;-&space;(1-\alpha)^n" title="\small \alpha = 1 - (1-\alpha)^n" /></a></p>
+- Bonferroni correction (no assumption,conservative)
+  <p align="center"><a href="https://www.codecogs.com/eqnedit.php?latex=\small&space;\alpha_{indivisal}&space;=&space;\frac{\alpha_{overall}}{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\small&space;\alpha_{indivisal}&space;=&space;\frac{\alpha_{overall}}{n}" title="\small \alpha_{indivisal} = \frac{\alpha_{overall}}{n}" /></a></p>
