@@ -11,6 +11,11 @@
 - To measure the total impact: Click-through-probability = Unique visitors who click/Unique visitors to page
 
 ### Review Statistics
+- Binomial Distribution 
+  - two types of outcome
+  - independent events
+  - identical distribution
+  
 - Calculate a confidence interval
   - To use normal : Np>5 and N(1-p)>5
   - Pooled Standard Error 
