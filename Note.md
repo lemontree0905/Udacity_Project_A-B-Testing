@@ -70,6 +70,10 @@ Four Principles of IRB's (Institutional Research Boards): Risk, Benefits, Altern
   - Distributional metrics: means, median, percentiles
   - Probabilities and Rates
   - Ratios
+- Common distributions in online data
+  - Poisson distribution (e.g. the average staytime on the results page before traveling to a result)
+  - Zipfian or Pareto distribution (e.g. This distribution usually comes up in other rare events such as the frequency of words in a text) 
+  - A composition of different distributions (e.g. latency often has this characteristic because users on fast internet connection form one group and users on dial-up or cell phone networks form another)
   
 ### Sensitivity and Robustness
 
@@ -77,11 +81,20 @@ Four Principles of IRB's (Institutional Research Boards): Risk, Benefits, Altern
 |type of metric |distribution| estimated variance
 | --- | --- | --- |
 |probability | binomial | p(1-p)/N
-|mean |	Normal | sigma^2/N
+|mean |	Normal | sigma^2/N 
 |median/percentile| depends | depends
 | counts/difference | normal(maybe)| Var(X)+Var(Y)
 | rates | poisson | \bar{x}
 | ratios| depends | depends
+
+### Nonparametric test
+
+### Empirical Variability
+- Calculate variability empirically
+- Uses of A/A test
+  - Compare results to what you expect (sanity check)
+  - Estimate variance and calculate confidence
+  - Directly estimate confidence interval
 
 ## Lesson4 Designing an Experiment
 ### Choose 'subject'
