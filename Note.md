@@ -10,7 +10,7 @@
 - To measure the usability: Click-through-rate(CTR) = Number of clicks/Number of page views
 - To measure the total impact: Click-through-probability = Unique visitors who click/Unique visitors to page
 
-### Review Statistics
+### Review Statistics (Click-through-probability)
 - Binomial Distribution 
   - two types of outcome
   - independent events
@@ -48,8 +48,14 @@ Four Principles of IRB's (Institutional Research Boards): Risk, Benefits, Altern
   - External Data
   - Retrospective or observational analysis (establish **correlation** not **causation**)
   - Gathering Your Own In-Depth Data
-    - User Experience Research (UER): 
+    - Usability testing
+      - Used when creating a new site/system from scratch, or when making changes to an existing site/system.
+      - Performed regularly through the development cycle.
+      - Used to find out the performance of your site/system.
     - Focus groups
+      - Performed early on in the project
+      - Used if you have little or no real knowledge about your target market. 
+      - Used if you are looking to develop something new, but aren't sure what the reaction will be.
     - Surveys
 ###  Metric Definition
 - Click-through-probability = Unique visitors who click/Unique visitors to page
